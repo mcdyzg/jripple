@@ -1,0 +1,19 @@
+{
+  "name": "jripple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ripple.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jQuery",
+    "plugin",
+    "ripple"
+  ],
+  "author": "mcdyzg",
+  "license": "ISC"
+}

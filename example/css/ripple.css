@@ -1,0 +1,15 @@
+		.ink {
+			display: block; 
+			position: absolute;
+			/*background: hsl(180, 40%, 80%);*/
+			background: rgba(0,0,0,.6);
+			border-radius: 100%;
+			transform: scale(0);
+		}
+		/*animation effect*/
+		/*.ink.animate {animation: ripple 0.65s linear;}*/
+/*		.ink.animate {animation: ripple .6s  linear;}*/
+		@keyframes ripple {
+			/*scale the element to 250% to safely cover the entire link and fade it out*/
+			100% {opacity: 0; transform: scale(2.5);}
+		}

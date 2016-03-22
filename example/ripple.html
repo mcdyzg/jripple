@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ripple</title>
+
+    <link rel="stylesheet" type="text/css" href="css/ripple.css">
+	<style type="text/css">
+
+	</style>
+  </head>
+  <body>
+  <div class="ripple" style="height: 44px;width: 200px;background: pink;display: block;"></div>
+
+    <script src="js/jquery-1.9.0.min.js"></script>
+    <script src="js/ripple.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $('.ripple').ripple({
+          color:'red',
+          time:'.8s'
+        });
+      })
+    </script>
+  </body>
+</html>
