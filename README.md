@@ -21,4 +21,5 @@
 ## Options ##
 
 `color`:the ripple's color
+
 `time`: animation-duration
